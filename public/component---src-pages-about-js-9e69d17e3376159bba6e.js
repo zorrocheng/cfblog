@@ -1,0 +1,2 @@
+webpackJsonp([0xefeaa6d1881d],{234:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(4),n=u(a);t.default=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Hi! I'm building a fake Gatsby site as part of a tutorial!"),n.default.createElement("p",null,"What do I like to do? Lots of course but definitely enjoy building websites."))},e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-about-js-9e69d17e3376159bba6e.js.map

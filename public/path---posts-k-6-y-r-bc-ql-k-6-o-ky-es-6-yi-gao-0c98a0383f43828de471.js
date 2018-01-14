@@ -1,0 +1,2 @@
+webpackJsonp([0xedef2f435a7c],{365:function(t,e){t.exports={data:{contentfulPost:{childContentfulPostTitleTextNode:{title:"Tommy first post"},childContentfulPostBodyTextNode:{body:"Hello world"},featuredImage:null,category:[{id:"c1W8K4MuXdCckIMSMUqqQeg",title:"test"}]}},pathContext:{id:"K6yRBcQlK6OKyEs6YIGao"}}}});
+//# sourceMappingURL=path---posts-k-6-y-r-bc-ql-k-6-o-ky-es-6-yi-gao-0c98a0383f43828de471.js.map
