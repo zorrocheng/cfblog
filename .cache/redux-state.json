@@ -431,7 +431,7 @@
       "resolve": "/Users/zorrocheng/code/gatsby/cfblog",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a54650598f10edfb3fc50e05ebaf75f5",
+      "version": "77751a669697523e4c3332862a7178f8",
       "pluginOptions": {
         "plugins": []
       },
@@ -450,6 +450,10 @@
         "author": "Marcus Ericsson <mericsson@gmail.com> (mericsson.com)",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "dotenv",
+            "version": "^4.0.0"
+          },
           {
             "name": "gatsby",
             "version": "latest"
@@ -511,7 +515,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "18c7138e644f6fe328aa7b42b2470cac",
+        "contentDigest": "b502afefe95f7c5f6c3e87aa9cb14b54",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -525,12 +529,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-01-14T13:29:07.665Z",
+      "buildTime": "2018-01-14T14:22:01.154Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d48d668964a554f76ed6d72ce3f261a2",
+        "contentDigest": "4ba5ef148d65897f44c9c97d154b169a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -596,9 +600,6 @@
     "c1otc7I2y56EcK46AyqiGCO": {
       "name": "Zorro",
       "website": "http://zorro.com",
-      "post___NODE": [
-        "c3rWOuJ8WDKIuiwUs8YagCk"
-      ],
       "biography___NODE": "c1otc7I2y56EcK46AyqiGCObiographyTextNode",
       "id": "c1otc7I2y56EcK46AyqiGCO",
       "contentful_id": "1otc7I2y56EcK46AyqiGCO",
@@ -610,7 +611,7 @@
       ],
       "internal": {
         "type": "ContentfulAuthor",
-        "contentDigest": "a72fe112d4ecaba19218020d2e1f3bc4",
+        "contentDigest": "45c9dad724ac53f4ba3a679aec09d728",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -623,6 +624,7 @@
         "c1asN98Ph3mUiCYIYiiqwko"
       ],
       "post___NODE": [
+        "c3rWOuJ8WDKIuiwUs8YagCk",
         "c1asN98Ph3mUiCYIYiiqwko"
       ],
       "biography___NODE": "c6EczfGnuHCIYGGwEwIqiq2biographyTextNode",
@@ -636,7 +638,7 @@
       ],
       "internal": {
         "type": "ContentfulAuthor",
-        "contentDigest": "3cfa33e00c2ec8defbc46b76fb6d564d",
+        "contentDigest": "a33306308494b611072f18f6edb8e561",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -780,12 +782,12 @@
       "children": [
         "c3rWOuJ8WDKIuiwUs8YagCktitleTextNode >>> MarkdownRemark"
       ],
-      "title": "First short post",
+      "title": "First short post @",
       "internal": {
         "type": "contentfulPostTitleTextNode",
         "mediaType": "text/markdown",
-        "content": "First short post",
-        "contentDigest": "24d5896e4ac7278af1b0cd6cd69dc643",
+        "content": "First short post @",
+        "contentDigest": "d629761eee83687565bf68d17bbaf303",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -795,12 +797,12 @@
       "children": [
         "c3rWOuJ8WDKIuiwUs8YagCkbodyTextNode >>> MarkdownRemark"
       ],
-      "body": "This is the first post. Happy New Year. \nHaha From Tommy",
+      "body": "This is the first post. Happy New Year. \nHaha From Tommy\n\nHehe from Zorro\nhoho from zorro\n\ngege",
       "internal": {
         "type": "contentfulPostBodyTextNode",
         "mediaType": "text/markdown",
-        "content": "This is the first post. Happy New Year. \nHaha From Tommy",
-        "contentDigest": "22d12935512d20cc15a5ec9281c59818",
+        "content": "This is the first post. Happy New Year. \nHaha From Tommy\n\nHehe from Zorro\nhoho from zorro\n\ngege",
+        "contentDigest": "b2a8e990f9ccf97ffd83edb1104e1c2c",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -893,7 +895,7 @@
       "id": "c3rWOuJ8WDKIuiwUs8YagCk",
       "contentful_id": "3rWOuJ8WDKIuiwUs8YagCk",
       "createdAt": "2018-01-01T04:35:06.675Z",
-      "updatedAt": "2018-01-14T13:27:39.052Z",
+      "updatedAt": "2018-01-14T14:20:06.882Z",
       "parent": "Post",
       "children": [
         "c3rWOuJ8WDKIuiwUs8YagCktitleTextNode",
@@ -901,7 +903,7 @@
       ],
       "internal": {
         "type": "ContentfulPost",
-        "contentDigest": "b4de2d3b74c389e1657b0fbb668c08f7",
+        "contentDigest": "92cf8b8f8a80ba1e47143b4b651a632c",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -1236,8 +1238,8 @@
       "children": [],
       "parent": "c3rWOuJ8WDKIuiwUs8YagCktitleTextNode",
       "internal": {
-        "content": "First short post",
-        "contentDigest": "ad85637db02186ada758590320033968",
+        "content": "First short post @",
+        "contentDigest": "c0626eda74fc7ee91e29e2cc51d3f4df",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
@@ -1252,8 +1254,8 @@
       "children": [],
       "parent": "c3rWOuJ8WDKIuiwUs8YagCkbodyTextNode",
       "internal": {
-        "content": "This is the first post. Happy New Year. \nHaha From Tommy",
-        "contentDigest": "318282c85ffaba1caa5618c334b8bbc5",
+        "content": "This is the first post. Happy New Year. \nHaha From Tommy\n\nHehe from Zorro\nhoho from zorro\n\ngege",
+        "contentDigest": "ae5e5bab0d3aeee9b4a9fa0656f6ee57",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
@@ -1327,68 +1329,6 @@
         "parent": "c1asN98Ph3mUiCYIYiiqwkobodyTextNode"
       }
     },
-    "K6yRBcQlK6OKyEs6YIGaotitleTextNode": {
-      "id": "K6yRBcQlK6OKyEs6YIGaotitleTextNode",
-      "parent": "K6yRBcQlK6OKyEs6YIGao",
-      "children": [
-        "K6yRBcQlK6OKyEs6YIGaotitleTextNode >>> MarkdownRemark"
-      ],
-      "title": "Tommy first post",
-      "internal": {
-        "type": "contentfulPostTitleTextNode",
-        "mediaType": "text/markdown",
-        "content": "Tommy first post",
-        "contentDigest": "c240ca1754c2934f2fb46e7055ad0897",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "K6yRBcQlK6OKyEs6YIGaobodyTextNode": {
-      "id": "K6yRBcQlK6OKyEs6YIGaobodyTextNode",
-      "parent": "K6yRBcQlK6OKyEs6YIGao",
-      "children": [
-        "K6yRBcQlK6OKyEs6YIGaobodyTextNode >>> MarkdownRemark"
-      ],
-      "body": "Hello world",
-      "internal": {
-        "type": "contentfulPostBodyTextNode",
-        "mediaType": "text/markdown",
-        "content": "Hello world",
-        "contentDigest": "3e25960a79dbc69b674cd4ec67a72c62",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "K6yRBcQlK6OKyEs6YIGaotitleTextNode >>> MarkdownRemark": {
-      "id": "K6yRBcQlK6OKyEs6YIGaotitleTextNode >>> MarkdownRemark",
-      "children": [],
-      "parent": "K6yRBcQlK6OKyEs6YIGaotitleTextNode",
-      "internal": {
-        "content": "Tommy first post",
-        "contentDigest": "d841c47565c9745420e06ad03143b6d7",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "",
-        "_PARENT": "K6yRBcQlK6OKyEs6YIGaotitleTextNode",
-        "parent": "K6yRBcQlK6OKyEs6YIGaotitleTextNode"
-      }
-    },
-    "K6yRBcQlK6OKyEs6YIGaobodyTextNode >>> MarkdownRemark": {
-      "id": "K6yRBcQlK6OKyEs6YIGaobodyTextNode >>> MarkdownRemark",
-      "children": [],
-      "parent": "K6yRBcQlK6OKyEs6YIGaobodyTextNode",
-      "internal": {
-        "content": "Hello world",
-        "contentDigest": "0eaa6d13f5fa81723510024cd1ebd97b",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "",
-        "_PARENT": "K6yRBcQlK6OKyEs6YIGaobodyTextNode",
-        "parent": "K6yRBcQlK6OKyEs6YIGaobodyTextNode"
-      }
-    },
     "SitePage /posts/c3rWOuJ8WDKIuiwUs8YagCk/": {
       "layout": "index",
       "jsonName": "posts-c-3-r-w-ou-j-8-wdk-iuiw-us-8-yag-ck.json",
@@ -1399,7 +1339,7 @@
       "context": {
         "id": "c3rWOuJ8WDKIuiwUs8YagCk"
       },
-      "updatedAt": 1515936552814,
+      "updatedAt": 1515939725289,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/templates/post.js",
@@ -1408,7 +1348,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "904b9f5b030c13e46094f22ff7977e86",
+        "contentDigest": "aaf0a3aa3d685d2d98616cef18822509",
         "owner": "internal-data-bridge"
       }
     },
@@ -1422,7 +1362,7 @@
       "context": {
         "id": "A96usFSlY4G0W4kwAqswk"
       },
-      "updatedAt": 1515936552815,
+      "updatedAt": 1515939725290,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/templates/post.js",
@@ -1431,7 +1371,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c165b3caf269b2f1c2df22d23b5052a7",
+        "contentDigest": "4500e60993705cd67fdb0ba6c49f6da8",
         "owner": "internal-data-bridge"
       }
     },
@@ -1445,7 +1385,7 @@
       "context": {
         "id": "c1asN98Ph3mUiCYIYiiqwko"
       },
-      "updatedAt": 1515936552816,
+      "updatedAt": 1515939725291,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/templates/post.js",
@@ -1454,7 +1394,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8ed75bfa5ef9a675bb95e986767e1a6a",
+        "contentDigest": "4062866dd0c18599560582e0445c94b0",
         "owner": "internal-data-bridge"
       }
     },
@@ -1468,7 +1408,7 @@
       "context": {
         "id": "c1W8K4MuXdCckIMSMUqqQeg"
       },
-      "updatedAt": 1515936552821,
+      "updatedAt": 1515939725295,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/templates/category.js",
@@ -1477,7 +1417,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6e1802a32b45adc7c9c0c0939de064d9",
+        "contentDigest": "3bd8c475687c89d9cc673cf0220064b3",
         "owner": "internal-data-bridge"
       }
     },
@@ -1491,7 +1431,7 @@
       "context": {
         "id": "c6XL7nwqRZ6yEw0cUe4y0y6"
       },
-      "updatedAt": 1515936552822,
+      "updatedAt": 1515939725296,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/templates/category.js",
@@ -1500,7 +1440,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "739ea4aa6722f77c34fe23cabb4c3f23",
+        "contentDigest": "303f91202b5c53083b5aa9ddc07780ef",
         "owner": "internal-data-bridge"
       }
     },
@@ -1514,7 +1454,7 @@
       "context": {
         "id": "FJlJfypzaewiwyukGi2kI"
       },
-      "updatedAt": 1515936552822,
+      "updatedAt": 1515939725297,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/templates/category.js",
@@ -1523,7 +1463,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "139d345d8f0bdb277281f9ea0de137fe",
+        "contentDigest": "172c0c9de4948e9ba8738ba3ee853888",
         "owner": "internal-data-bridge"
       }
     },
@@ -1535,7 +1475,7 @@
       "component": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1515936552831,
+      "updatedAt": 1515939725311,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/about.js",
@@ -1544,7 +1484,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c99d2631f2621966564c5891461ced34",
+        "contentDigest": "8a665a15c1b3620cd91804464dd15216",
         "owner": "internal-data-bridge"
       }
     },
@@ -1556,7 +1496,7 @@
       "component": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/contact.js",
       "componentChunkName": "component---src-pages-contact-js",
       "context": {},
-      "updatedAt": 1515936552832,
+      "updatedAt": 1515939725311,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/contact.js",
@@ -1565,7 +1505,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ed3701a25647fc3eb597e0b3d6c7601a",
+        "contentDigest": "2125cf86e7f1da3716343f984d6b862b",
         "owner": "internal-data-bridge"
       }
     },
@@ -1577,7 +1517,7 @@
       "component": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/image-api.js",
       "componentChunkName": "component---src-pages-image-api-js",
       "context": {},
-      "updatedAt": 1515936552832,
+      "updatedAt": 1515939725313,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/image-api.js",
@@ -1586,7 +1526,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "74f794eef175079f0069b900aa2fab6e",
+        "contentDigest": "4159c20a91100465ac3c505c2d4d889c",
         "owner": "internal-data-bridge"
       }
     },
@@ -1598,7 +1538,7 @@
       "component": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1515936552833,
+      "updatedAt": 1515939725314,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/zorrocheng/code/gatsby/cfblog/src/pages/index.js",
@@ -1607,7 +1547,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36d76bc9e803f94f2bdf0c896af96b2b",
+        "contentDigest": "858451978ef33f12a3ea8dd88c66e806",
         "owner": "internal-data-bridge"
       }
     }
@@ -1615,10 +1555,10 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "jsmt0ecmw3h7": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZnbUY3C2VnRwtsFTLCsWtyVMOqKcOPwoTCicKDPCrDsAE0woHCvyPCo1tbMxl6NFzDpcO6BsOYBjLCuMKcb2oaw4PCksOpwrkKwqd1MsKqwrnCoxEBwqHCsA"
+        "jsmt0ecmw3h7": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYCIMOCVW1Tw75RA8OiPDM3wrE3KsOSwot0w70Aw4Zww50ZSj3DvGPCmBsFRhLCiGBwwpLDt28na8OTw5ElwrwiRMKTIsKPw5E_ckU8wrM3T8KLejRCw7I"
       }
     },
-    "PLUGINS_HASH": "3f1a83cb292ad08a368801afbc7f5ef5"
+    "PLUGINS_HASH": "8ec7adb739cc99a88615750d7964b2c7"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1662,8 +1602,7 @@
       ],
       "c1W8K4MuXdCckIMSMUqqQeg": [
         "/posts/c3rWOuJ8WDKIuiwUs8YagCk/",
-        "/categories/c1W8K4MuXdCckIMSMUqqQeg/",
-        "/posts/K6yRBcQlK6OKyEs6YIGao/"
+        "/categories/c1W8K4MuXdCckIMSMUqqQeg/"
       ],
       "c1asN98Ph3mUiCYIYiiqwko": [
         "/posts/c1asN98Ph3mUiCYIYiiqwko/",
@@ -1692,13 +1631,6 @@
       ],
       "c6JCShApjO0O4CUkUKAKAaS": [
         "/categories/FJlJfypzaewiwyukGi2kI/"
-      ],
-      "K6yRBcQlK6OKyEs6YIGaotitleTextNode": [
-        "/",
-        "/posts/K6yRBcQlK6OKyEs6YIGao/"
-      ],
-      "K6yRBcQlK6OKyEs6YIGaobodyTextNode": [
-        "/posts/K6yRBcQlK6OKyEs6YIGao/"
       ]
     },
     "connections": {
